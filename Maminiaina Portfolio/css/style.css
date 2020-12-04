@@ -1,0 +1,123 @@
+.header{
+    background-image: url("background.jpg");
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 1800px;
+    margin: 0 auto;
+}
+
+.header .navbar .logo{
+    float: left;
+    margin-top: 35px;
+}
+
+.header .navbar .menu{
+    float: right;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.header .navbar .menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin: 0 75px;
+}
+
+.header .navbar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header .home {
+    text-align: center;
+    color: blanchedalmond;
+    margin-top: 205px;
+
+}
+
+.header .home h2{
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.header .home h1{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.header .home a{
+    background-color: #fed136;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Services */
+
+.services{
+    padding: 120px 0;
+}
+
+.services .section_title{
+    text-align: center;
+    background-image: url("main.jpg");
+}
+
+.services .section_title h1{
+    font-family: 'Monsterrat', sans-serif;
+    color: #837f7f;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.services .section_title p{
+    font-family:'Droid Serif', sans-serif;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.services .services_boxes .serv{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    background-image: url("skills.jpg");
+    font-style: italic;
+    font-size: 25px;
+}
+
+.services .services_boxes .serv image{
+    font-size: 40px;
+
+}
+
+.footer{
+    width: 100%;
+    background-color: #000;
+    height: 50px;
+    padding-right: 30px;
+}
